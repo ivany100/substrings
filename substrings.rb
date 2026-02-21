@@ -1,4 +1,3 @@
-require "pry-byebug"
 # substrings takes a word as a first argument and then
 # an array of valid substrings
 # returns a hash listing each substring and how many
