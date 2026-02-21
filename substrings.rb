@@ -10,10 +10,10 @@ def substrings(word, substrings_array)
   substrings_array.each do |substring|
     substring = substring.downcase
 
-    # word compliance counter
+    # substring compliance counter
     # if counter equals the length of the substring, add to the resulting hash
     i = 0
-    
+
     word.length.times do |n|
       if word[n] == substring[i]
         i += 1
